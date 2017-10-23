@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace Lab05
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        sayHello();
+        Console.ReadLine();
+    }
+
+    void sayHello()
+    {
+        Console.WriteLine("Hello World.");
     }
 }
