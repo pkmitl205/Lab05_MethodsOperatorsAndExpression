@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 class Program
 {
@@ -8,7 +9,7 @@ class Program
         Console.ReadLine();
     }
 
-    void sayHello()
+    static void sayHello()
     {
         Console.WriteLine("Hello World.");
     }
