@@ -4,13 +4,13 @@ class Program
 {
     static void Main()
     {
-        int val = 999;
-        refMethod(out val);
+        int val;   // // uninitialized variable
+        refMethod(ref val);
         Console.WriteLine(val);
         Console.ReadLine();
     }
 
-    static void refMethod(out int i)
+    static void refMethod(ref int i)
     {
         i = i + 1;
     }
